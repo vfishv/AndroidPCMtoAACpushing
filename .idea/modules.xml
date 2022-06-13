@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidPCMtoAACpushing.iml" filepath="$PROJECT_DIR$/AndroidPCMtoAACpushing.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidPCMtoAACpushing.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidPCMtoAACpushing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidPCMtoAACpushing.app.unitTest.iml" />
     </modules>
   </component>
 </project>

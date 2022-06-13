@@ -3,7 +3,7 @@ package com.lgd.androidpcmtoaacpushing;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements MediaPublisher.Co
     }
 
 
-    public void srartAudio(View c) {
+    public void startAudio(View c) {
         mediaPublisher.startAudioGather();
         //初始化音频编码器
         mediaPublisher.initAudioEncoder();

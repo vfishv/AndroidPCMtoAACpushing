@@ -4,8 +4,7 @@ package com.lgd.androidpcmtoaacpushing.Audio;
  * Created by liuguodong on 04/03/18.
  */
 
-import android.os.Build;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 import android.util.Log;
 
 import java.util.concurrent.LinkedBlockingQueue;
@@ -27,7 +26,7 @@ public class MediaPublisher {
 
     private ConnectRtmpServerCb rtmpConnectCb;
     public interface ConnectRtmpServerCb{
-        public void onConnectRtmp(final int ret);
+        void onConnectRtmp(final int ret);
     }
 
     public static MediaPublisher newInstance( ) {
